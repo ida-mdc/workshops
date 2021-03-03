@@ -30,6 +30,11 @@ group at MDC and ...
 
 5. Morphological networks (November 2021)
 
+- Skeletonization
+- Tracing
+- Neural circuit analysis
+- Vascular network analysis
+
 6. Analysis and modeling (December 2021)
 
 ## Related links
