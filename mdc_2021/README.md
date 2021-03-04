@@ -8,16 +8,21 @@ group at MDC and ...
 
 1. Image analysis basics (May 2021)
 
-~4hrs of material
+~4hrs of material (based on lecture times from https://datacarpentry.org/image-processing/)
 
-Interactively in Fiji/ImageJ
-Assignments with Python
-Model the lessons after https://datacarpentry.org/image-processing/
+Interactively in Fiji/ImageJ tutorials based on  https://datacarpentry.org/image-processing/
 
-- What are images?
-- ImageJ
-- Image representations: pixel types, data representation
-- Key image processing methods
+- Introduction
+- ImageJ and Fiji
+- Image Basics
+- Image representation
+- Image masking
+- Bitwise Operations
+- Creating Histograms
+- Blurring images, Filtering
+- Thresholding
+- Edge Detection
+- Connected Component Analysis
 - Taking measurements
 - ImageJ macro recording
 - Python + Jupyter notebooks (https://chanzuckerberg.github.io/image-analysis-workshop/intro/about.html)
