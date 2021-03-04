@@ -53,14 +53,12 @@ Model the lessons after https://datacarpentry.org/image-processing/
 - Vascular network analysis
 - ER data
 
-6. [to replace?] Analysis and modeling (December 2021)
+6. Image enhancement (December 2021)
 
-Topics that are missing:
 - deconvolution
 - restoration
-- colocalization
 - denoising
-
+- colocalization
 
 ## Related links
 
