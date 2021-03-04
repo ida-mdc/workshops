@@ -16,12 +16,10 @@ Interactively in Fiji/ImageJ tutorials based on  https://datacarpentry.org/image
 - ImageJ and Fiji
 - Image Basics
 - Image representation
-- Image masking
-- Bitwise Operations
 - Creating Histograms
-- Blurring images, Filtering
+- Filtering: Blurring, Edge Detection
+- Binary Operations: erode, dilate
 - Thresholding
-- Edge Detection
 - Connected Component Analysis
 - Taking measurements
 - ImageJ macro recording
