@@ -19,7 +19,7 @@ Interactively in Fiji/ImageJ tutorials based on  https://datacarpentry.org/image
 - Creating Histograms
 - Filtering: Blurring, Edge Detection
 - Thresholding
-- Binary Operations: erode, dilate, (MorphoLibJ?), (FilamentJ?)
+- Binary Operations: erode, dilate, (FilamentJ?)
 - Connected Component Analysis
 - Taking measurements
 - ImageJ macro recording
@@ -29,8 +29,9 @@ Interactively in Fiji/ImageJ tutorials based on  https://datacarpentry.org/image
 
 - Semi-automated segmentation
 - ImageJ segmentation tools (weka, CSBDeep)
+- MorphoLibJ?
 - Ilastik
-- Deep learning + notebooks
+- Deep learning (DeepImageJ) + notebooks + bioimagej
 
 3. Tracking (September 2021)
 
@@ -63,6 +64,10 @@ Interactively in Fiji/ImageJ tutorials based on  https://datacarpentry.org/image
 - restoration
 - denoising
 - colocalization
+
+Need to cover:
+
+- CLIJ
 
 ## Related links
 
