@@ -18,8 +18,8 @@ Interactively in Fiji/ImageJ tutorials based on  https://datacarpentry.org/image
 - Image representation
 - Creating Histograms
 - Filtering: Blurring, Edge Detection
-- Binary Operations: erode, dilate
 - Thresholding
+- Binary Operations: erode, dilate, (MorphoLibJ?), (FilamentJ?)
 - Connected Component Analysis
 - Taking measurements
 - ImageJ macro recording
@@ -43,6 +43,7 @@ Interactively in Fiji/ImageJ tutorials based on  https://datacarpentry.org/image
 4. Visualization (October 2021)
 
 - napari
+- BigDataViewer
 - sciview
 - inkscape
 - blender
