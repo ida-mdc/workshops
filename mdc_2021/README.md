@@ -13,16 +13,23 @@ group at MDC and ...
 Interactively in Fiji/ImageJ tutorials based on  https://datacarpentry.org/image-processing/
 
 - Introduction
-- ImageJ and Fiji
 - Image Basics
 - Image representation
+- Image format
+- [break]
+- ImageJ and Fiji
 - Creating Histograms
 - Filtering: Blurring, Edge Detection
+- [break]
 - Thresholding
 - Binary Operations: erode, dilate, (FilamentJ?)
 - Connected Component Analysis
 - Taking measurements
+- [break]
 - ImageJ macro recording
+- Batch processing
+- Give a dataset, can you count the number of cells in each image
+
 - Python + Jupyter notebooks (https://chanzuckerberg.github.io/image-analysis-workshop/intro/about.html)
 
 2. Segmentation (June 2021)
