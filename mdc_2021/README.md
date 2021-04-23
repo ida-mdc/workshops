@@ -6,33 +6,43 @@ group at MDC and ...
 
 ## Syllabus
 
-1. Image analysis basics (May 2021)
+### Course: image analysis basics (June 2021)
 
 ~4hrs of material (based on lecture times from https://datacarpentry.org/image-processing/)
 
 Interactively in Fiji/ImageJ tutorials based on  https://datacarpentry.org/image-processing/
 
+### [Part 1](image_analysis_basics_pt1.md)
+
 - Introduction
 - Image Basics
 - Image representation
 - Image format
-- [break]
+
+### [Part 2](image_analysis_basics_pt2.md)
+
 - ImageJ and Fiji
 - Creating Histograms
 - Filtering: Blurring, Edge Detection
-- [break]
+
+### [Part 3](image_analysis_basics_pt3.md)
+
 - Thresholding
 - Binary Operations: erode, dilate, (FilamentJ?)
 - Connected Component Analysis
 - Taking measurements
-- [break]
+
+### [Part 4](image_analysis_basics_pt4.md)
+
 - ImageJ macro recording
 - Batch processing
 - Give a dataset, can you count the number of cells in each image
 
+### [Optional part 5](image_analysis_basics_pt5.md)
+
 - Python + Jupyter notebooks (https://chanzuckerberg.github.io/image-analysis-workshop/intro/about.html)
 
-2. Segmentation (June 2021)
+### Course: segmentation (September 2021)
 
 - Semi-automated segmentation
 - ImageJ segmentation tools (weka, CSBDeep)
