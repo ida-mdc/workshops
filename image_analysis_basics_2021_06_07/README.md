@@ -1,4 +1,4 @@
-# MDC image analysis workshops 2021-2022
+# Image analysis basics (June 2021)
 
 This course addresses the basics of image analysis in Fiji/ImageJ. We
 will use an interactive approach to explore image filtering, simple
@@ -9,18 +9,16 @@ Python-based image analysis.
 
 ## Syllabus
 
-### Course: image analysis basics (June 2021)
+### [Part 1](image_analysis_basics_pt1.md), overview of images
 
-### [Part 1](image_analysis_basics_pt1.md)
+### [Part 2](image_analysis_basics_pt2.md), hands-on image basics
 
-### [Part 2](image_analysis_basics_pt2.md)
+### [Part 3](image_analysis_basics_pt3.md), binary images
 
-### [Part 3](image_analysis_basics_pt3.md)
+### [Part 4](image_analysis_basics_pt4.md), batch processing
 
-### [Part 4](image_analysis_basics_pt4.md)
-
-### [Optional part 5](image_analysis_basics_pt5.md)
+### [Optional part 5](image_analysis_basics_pt5.md), Python tools
 
 ### Related links
 
-https://datacarpentry.org/image-processing/
+[https://datacarpentry.org/image-processing/](https://datacarpentry.org/image-processing/)
