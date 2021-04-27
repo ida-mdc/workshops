@@ -1,4 +1,4 @@
-# Image analysis basics (June 2021)
+# Image analysis basics
 
 This course addresses the basics of image analysis in Fiji/ImageJ. We
 will use an interactive approach to explore image filtering, simple
