@@ -21,4 +21,4 @@ Python-based image analysis.
 
 ### Related links
 
-[https://datacarpentry.org/image-processing/](https://datacarpentry.org/image-processing/)
+- [https://datacarpentry.org/image-processing/](https://datacarpentry.org/image-processing/)
