@@ -19,6 +19,6 @@
 ### Related links
 
 
-- https://datacarpentry.org/image-processing/
-- https://chanzuckerberg.github.io/image-analysis-workshop/intro/about.html
+- [https://datacarpentry.org/image-processing/](https://datacarpentry.org/image-processing/)
+- [https://chanzuckerberg.github.io/image-analysis-workshop/intro/about.html](https://chanzuckerberg.github.io/image-analysis-workshop/intro/about.html)
 
