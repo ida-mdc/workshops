@@ -16,13 +16,13 @@ Download Fiji from
 
 [Basic
 concepts](https://datacarpentry.org/image-processing/01-introduction/index.html)
-from Data Carpentry workshop
+from Data Carpentry workshop  
 [Pixels and file formats](https://datacarpentry.org/image-processing/02-image-basics/index.html)
 
 # Getting started with Fiji
 
 When you open Fiji you will get the following toolbar:
-![img/fiji_toolbar.png](Image of the Fiji toolbar)
+![Image of the Fiji toolbar](img/fiji_toolbar.png)
 
 There are a few efficient ways of using this:
 
@@ -31,13 +31,15 @@ There are a few efficient ways of using this:
    `File>Open Samples>Blobs`
    
 2. The search is available in the bottom right of the toolbar.
-![img/fiji_toolbar_search.png](Image of the Fiji toolbar with search
-box highlighted)
+![Image of the Fiji toolbar with search box highlighted](img/fiji_toolbar_search.png)
 Try typing `Blobs`
 
 **Protip: when the Fiji window is active press the letter 'l' and this
 will activate the toolbar, then simply type whatever
 command/plugin/etc. you want to use**
+
+Many of the example commands in this workshop will be listed as:  
+`Fiji search: <some phrase>`
 
 3. Finally there are some basic icons shown on the toolbar
    itself. These may be familiar from other image editing tools you've used.
@@ -57,6 +59,16 @@ There can be other pixel types with higher/lower resolutions and
 representing different types of data, but these are the key types in Fiji.
 
 **Activity:**
-```
-Fiji: File>Open Samples>Hela Cells
-```
+
+`Fiji search: hela cells`
+
+Note that there is a horizontal scroll bar at the bottom of the screen
+now which shows the currently active channel. This is for the red,
+green, and blue channels of the image.
+
+`Fiji search: brightnesscontrast`
+
+You should get a window like this (the color may be different if you
+played around with the channel selection scroll bar)
+
+![The brightness/contrast adjustment window](img/brightness_contrast.png)
