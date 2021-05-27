@@ -110,3 +110,5 @@ value, but the precision of each pixel's value is reduced. Instead of
 being able to represent the values `0`, `1`, `2`, `3`, `4`, `5`, `6`,
 ..., `15`, we actually just store a `bin` that represents all values
 between `0` and `15`. 
+
+We will get into this in more detail in the following section [part 2](https://ida-mdc.github.io/workshops/image_analysis_basics_2021_06_07/image_analysis_basics_pt2.html).
