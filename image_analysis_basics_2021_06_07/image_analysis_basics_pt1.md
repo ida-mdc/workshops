@@ -36,7 +36,7 @@ Try typing `Blobs`
 
 **Protip: when the Fiji window is active press the letter 'l' and this
 will activate the toolbar, then simply type whatever
-command/plugin/etc. you want to use**
+command/plugin/etc. you want to use.**
 
 Many of the example commands in this workshop will be listed as:  
 `Fiji search: <some phrase>`
@@ -66,9 +66,28 @@ Note that there is a horizontal scroll bar at the bottom of the screen
 now which shows the currently active channel. This is for the red,
 green, and blue channels of the image.
 
+![HeLa cells example image from Fiji](img/hela_cells.png)
+
+Note that the active channel is shown at the top of the image (in this
+example in blue)
+
+Also note, that as you move your mouse over the image the location and
+pixel value is shown on the Fiji toolbar:
+
+![Showing that Fiji shows pixel location and value when mousing over
+image data](img/mouse_over_pixel_location_value.png)
+
 `Fiji search: brightnesscontrast`
 
 You should get a window like this (the color may be different if you
 played around with the channel selection scroll bar)
 
 ![The brightness/contrast adjustment window](img/brightness_contrast.png)
+
+Adjust the channels to get a sense about how the visual representation
+of the image changes. Note that as you adjust the
+minimum/maximum/brightness/contrast the `value` of the pixel does not
+change only the visual representation.
+
+
+
