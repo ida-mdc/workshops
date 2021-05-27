@@ -22,6 +22,7 @@ posted shortly before the course officially starts on June 7 2021.**
 
 ### [Optional part 5](image_analysis_basics_pt5.md), Python tools
 
-### Related links
+### References
 
 - [https://datacarpentry.org/image-processing/](https://datacarpentry.org/image-processing/)
+- Book: [The Digitial Cell](https://www.cshlpress.com/default.tpl?cart=16221012231476127106&fromlink=T&linkaction=full&linksortby=oop_title&--eqSKUdatarq=1282)
