@@ -182,6 +182,29 @@ enable some more measurements:
 
 ![Set measurements window](img/set_measurements_window.png)
 
+Now the next time you take a measurement these additional measures
+will be calculated as well.
+
+That selection you made in the Blobs image is called a Region of
+Interest (ROI), and there are a lot of things that you can do with
+ROIs. 
+
+If you go back to your window with the Blobs image, and your favorite
+blob is still selected, then try pressing `t`.
+
+![ROI manager window](img/ROI_manager_window.png)
+
+Once you have added a ROI into the ROI manager you can use it in other
+images. Try opening a new image 
+
+`Fiji menu: File>Open samples>Clown`
+
+Now go back to the ROI manager and click on the ROI that was
+added. You will see that the selection becomes highlighted in the new
+image as well.
+
+![Using ROIs in different images](img/using_ROIs_different_image.png)
+
 # References
 
 - Pete Bankhead's [chapter on thresholding](https://petebankhead.gitbooks.io/imagej-intro)
