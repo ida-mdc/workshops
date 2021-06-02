@@ -37,6 +37,23 @@ Press `Apply` to make a binary mask of the image.
 
 ![Binary mask of blobs](img/blobs_binary.png)
 
+### Automatic thresholding
+
+There are many algorithms for computing a threshold. Explanations of
+the methods available in ImageJ [here](https://imagej.net/Auto_Threshold).
+
+You can easily compare thresholding algorithms with the Auto Threshold
+tool:
+
+`Fiji search: auto threshold`
+
+![Auto threshold window](img/auto_threshold_window.png)
+
+Now we can use the `Try all` option to create a montage of all of the
+thresholding outputs.
+
+![Auto threshold montage](img/auto_threshold_montage.png)
+
 ## Binary Operations: erode, dilate
 
 Binary operations are ways of processing a binary image that can
