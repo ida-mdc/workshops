@@ -54,6 +54,20 @@ thresholding outputs.
 
 ![Auto threshold montage](img/auto_threshold_montage.png)
 
+### Local thresholding
+
+The previously described algorithms use global image statistics
+(e.g. the histogram of the image) to calculate the threshold. However,
+sometimes your image may have local variations that can cause problems
+with such global methods. You can use the auto local threshold tool to
+perform a similar comparison to the one we did for automatic
+thresholding. Note that the `radius` is a key variable here. The
+algorithms are essentially the same as the global thresholding
+algorithms, but instead they operate on a sliding window with a size
+defined by the `radius`.
+
+`Fiji search: auto local threshold`
+
 ## Binary Operations: erode, dilate
 
 Binary operations are ways of processing a binary image that can
