@@ -252,7 +252,31 @@ Now let's segment out the neuron:
 
 `Fiji search: trainable weka segmentation`
 
-![Trainable weka segmentation window](img/trainable_weka_segmentation_window.png)
+![Trainable weka segmentation
+window](img/trainable_weka_segmentation_window.png)
+
+Now we will create the output by pressing `Create result`
+
+It might be hard to get to the point of having a great segmentation in
+this case, so let's select the main body of our neuron.
+
+![Selected neuron body](img/select_neuron_body.png)
+
+Now we can clear everything beyond the selected neuron:
+
+`Fiji menu: Edit>Clear Outside`
+
+Then let's make the result binary:
+
+`Fiji menu: Process>Binary>Make binary`
+
+![Binary version of neuron](img/binary_neuron.png)
+
+Now let's find the skeleton:
+
+![Skeletonized neuron](img/neuron_skeletonization.png)
+
+Tada!
 
 # References
 
