@@ -233,8 +233,26 @@ separation. The locations where you start to fill the water are called
 the `seed points`. In the default ImageJ watershed algorithm these
 points are determined by the Euclidean distance transform.
 
-
 ### Skeletonize
+
+Now let's try skeletonizing a neuron!
+
+`Fiji menu: File>Open Samples>Neuron (5 channels)`
+
+This image has 5 channels that you can inspect by moving the scroll
+bar on the bottom of the screen. Let's split the channels into
+separate images:
+
+`Fiji search: split channels`
+
+Now focus on the second channel `C2-Rat_Hippocampal_Neuron.tif`
+window.
+
+Now let's segment out the neuron:
+
+`Fiji search: trainable weka segmentation`
+
+![Trainable weka segmentation window](img/trainable_weka_segmentation_window.png)
 
 # References
 
