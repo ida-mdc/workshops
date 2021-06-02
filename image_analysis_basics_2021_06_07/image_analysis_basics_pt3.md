@@ -151,6 +151,37 @@ masks and then changing the `LUT` of the image.
 
 ![Fiji window with LUT selected](img/fiji_toolbar_LUT.png)
 
+## Regions of interest
+
+When we took our measurements we quantified a collection of
+regions. This is a very common task in image processing. However, you
+may just need to take a quick measurement of an object. Let's try the
+magic wand tool!
+
+![Magic wand tool selected](img/magic_wand_tool.png)
+
+Now go back to the blob's image and click on your favorite blob. Did
+you get the result you'd expect? Try double clicking on the wand icon
+on the toolbar, now adjust the tolerance.
+
+![Magic wand tool window](img/wand_tool_window.png)
+
+Now try clicking on your favorite blob again.
+
+![Favorite blob is selected](img/favorite_blob.png)
+
+Now you can take a measurement
+
+`Fiji menu: Analyze>Measure` or `Ctrl+m`
+
+That will bring up a new window with a results able, but it might not
+have all of the features that you actually want to measure. Let's
+enable some more measurements:
+
+`Fiji menu: Analyze>Set measurements...`
+
+![Set measurements window](img/set_measurements_window.png)
+
 # References
 
 - Pete Bankhead's [chapter on thresholding](https://petebankhead.gitbooks.io/imagej-intro)
