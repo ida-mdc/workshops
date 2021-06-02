@@ -205,6 +205,37 @@ image as well.
 
 ![Using ROIs in different images](img/using_ROIs_different_image.png)
 
+## Advanced binary
+
+### Watershed
+
+Let's go back to Blobs and run a simple threshold.
+
+![Binary blobs](img/binary_blobs.png)
+
+Now let's run what is called a watershed algorithm:
+
+`Fiji search: watershed`
+
+You'll see that a number of our large blobs have been split into
+approximately even pieces around the narrow midpoint.
+
+![Blobs watershed output](img/blobs_watershed.png)
+
+There is a more detailed explanation of the algorithm in the [Bankhead
+book](https://petebankhead.gitbooks.io/imagej-intro/content/chapters/binary/binary.html). The
+rough idea of the algorithm is that you think about the intensity of
+an image as defining contour map of mountains and valleys, where dark
+regions are valleys and bright regions are mountains. You fill this
+map with water at specific locations, and when a region gets to the
+point of overflowing into a neighbor you build a dam to maintain
+separation. The locations where you start to fill the water are called
+the `seed points`. In the default ImageJ watershed algorithm these
+points are determined by the Euclidean distance transform.
+
+
+### Skeletonize
+
 # References
 
 - Pete Bankhead's [chapter on thresholding](https://petebankhead.gitbooks.io/imagej-intro)
