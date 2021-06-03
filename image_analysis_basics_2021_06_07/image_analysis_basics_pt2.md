@@ -1,21 +1,27 @@
-# Image analysis basics (pt2)
+# Part 2: Basic Functions in Fiji
 
-### Talk contents:
+## Overview:
 
-- What is Fiji/ImageJ?
-- Opening images, stacks, series' & metadata'
-- Magnifier, hand, selection tools (points, angles, lines & shapes), annotation & drawing tools.
-- Handling stack dimensions (x,y,z,t,ch): Stacks & Hyperstacks
-- Manipulating stack dimensions: Slice keeper/remover, Z-Projection, Split & Merge channels
-- Positions & their pixel values
+- Handling stack dimensions (x,y,z,t,ch): stacks & hyperstacks
+- Manipulating stack dimensions: slice keeper/remover, split & Merge channels
+- Projecting and reslicing
 - Switching bit depths, look Up tables & their associated issues
 - Adjusting brightness & histograms
 - Show info (ctrl+i), Set scale, Set Measurements, Measure
 - What is a filter?
 - Mean, Median and Gaussian filters (smoothing/denoising)
 - Edge detection - eg Soebel Filter
+- Background removal
+- Image calculations 
 
-### Excercise:
+## Content:
+
+So now we've got Fiji up and running, and opened some images, lets have a look at the basic controls and functions we can use.
+
+Often images in bioscience today are not just a simple 2-dimensional (X,Y) snapshot of intensity. Instead we often have to deal with 3, 4 or 5 dimensions in our images including a depth dimension (Z), time (T) and different channels (Ch).
+![X-Y Greyscale Image](img/sphx_glr_plot_camera_001.png.crdownload)[Multi-dimensional Image](img/pmovie.gif)
+
+## Excercise:
 
 1. Open sample Mitosis.tif (*File>Open Samples>Mitosis*).
 3. Let's get a feel for the image: Use the scrollbars to move through the different Z-depths and Timepoints. Use the magnifier & hand tools to zoom in and move around the image.
