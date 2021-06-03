@@ -19,7 +19,7 @@
 So now we've got Fiji up and running, and opened some images, lets have a look at the basic controls and functions we can use.
 
 Often images in bioscience today are not just a simple 2-dimensional (X,Y) snapshot of intensity. Instead we often have to deal with 3, 4 or 5 dimensions in our images including a depth dimension (Z), time (T) and different channels (Ch).
-![X-Y Greyscale Image](img/sphx_glr_plot_camera_001.png.crdownload){:height="50%" width="50%"}![Multi-dimensional Image](img/pmovie.gif){:height="50%" width="50%"}
+![X-Y Greyscale Image](img/sphx_glr_plot_camera_001.png.crdownload?v=4&s=100)![Multi-dimensional Image](img/pmovie.gif?v=4&s=50)
 
 ## Excercise:
 
