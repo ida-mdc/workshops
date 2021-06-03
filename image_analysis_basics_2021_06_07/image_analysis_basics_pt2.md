@@ -18,6 +18,8 @@
 
 So now we've got Fiji up and running, and opened some images, lets have a look at the basic controls and functions we can use.
 
+### Handling stack dimensions
+
 Often images in bioscience today are not just a simple 2-dimensional (X,Y) snapshot of intensity. Instead we often have to deal with 3, 4 or 5 dimensions in our images, that can include a depth dimension (Z), time (T) and different channels (C).
 
 <img src="img/sphx_glr_plot_camera_001.png.crdownload" width="200" height="200"> <img src="img/pmovie.gif" width="200" height="200">
