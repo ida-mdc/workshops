@@ -18,7 +18,7 @@
 
 So now we've got Fiji up and running, and opened some images, lets have a look at the basic controls and functions we can use.
 
-Often images in bioscience today are not just a simple 2-dimensional (X,Y) snapshot of intensity. Instead we often have to deal with 3, 4 or 5 dimensions in our images including a depth dimension (Z), time (T) and different channels (C).
+Often images in bioscience today are not just a simple 2-dimensional (X,Y) snapshot of intensity. Instead we often have to deal with 3, 4 or 5 dimensions in our images, that can include a depth dimension (Z), time (T) and different channels (C).
 
 <img src="img/sphx_glr_plot_camera_001.png.crdownload" width="200" height="200"> <img src="img/pmovie.gif" width="200" height="200">
 
@@ -28,7 +28,14 @@ The simplest is the *hyperstack*. A *stack* is just a sequence of 2D images and 
 
 <img src="https://user-images.githubusercontent.com/56034869/120700952-981a1100-c4b2-11eb-957f-2d646a27137e.PNG" width="500" height="600">
 
-You can convert stacks to hyperstacks, and vice-versa, using the 
+You can convert stacks to hyperstacks, and vice-versa, using the `Image>Hyperstacks>Stack to Hyperstack / Hyperstack to Stack` command:
+
+<img src="https://user-images.githubusercontent.com/56034869/120719502-aecc6200-c4ca-11eb-8d82-afef3c32cb9d.PNG" width="185" height="200">
+
+and a quick look in `Image>Stacks>Tools` will show you a load of different ways to manipulate your image stack:
+
+<img src="https://user-images.githubusercontent.com/56034869/120720331-2bac0b80-c4cc-11eb-95c4-e35a9936bf83.PNG" width="700" height="750">
+
 
 ## Excercise:
 
