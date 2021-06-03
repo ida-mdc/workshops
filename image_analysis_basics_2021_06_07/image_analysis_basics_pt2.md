@@ -18,8 +18,17 @@
 
 So now we've got Fiji up and running, and opened some images, lets have a look at the basic controls and functions we can use.
 
-Often images in bioscience today are not just a simple 2-dimensional (X,Y) snapshot of intensity. Instead we often have to deal with 3, 4 or 5 dimensions in our images including a depth dimension (Z), time (T) and different channels (Ch).
-![X-Y Greyscale Image](img/sphx_glr_plot_camera_001.png.crdownload?v=4&s=100)![Multi-dimensional Image](img/pmovie.gif?v=4&s=50)
+Often images in bioscience today are not just a simple 2-dimensional (X,Y) snapshot of intensity. Instead we often have to deal with 3, 4 or 5 dimensions in our images including a depth dimension (Z), time (T) and different channels (C).
+
+<img src="img/sphx_glr_plot_camera_001.png.crdownload" width="200" height="200"> <img src="img/pmovie.gif" width="200" height="200">
+
+This can make the contents of our images hard to get our heads around, and hard to visualise on a 2D screen. Fiji has a number of approaches to help us with this.
+
+The simplest is the *hyperstack*. A *stack* is just a sequence of 2D images and Fiji displays a stack with a scrollbar allowing you to move through them. A *hyperstack* in Fiji can have 2 or 3 scrollbars, each one allowing you to move along an additional dimension beyond the first 2 (X & Y). 
+
+<img src="https://user-images.githubusercontent.com/56034869/120700952-981a1100-c4b2-11eb-957f-2d646a27137e.PNG" width="500" height="600">
+
+You can convert stacks to hyperstacks, and vice-versa, using the 
 
 ## Excercise:
 
