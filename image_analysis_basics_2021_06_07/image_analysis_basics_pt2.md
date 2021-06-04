@@ -4,7 +4,7 @@
 
 - Handling stack dimensions (x,y,z,t,ch): stacks & hyperstacks
 - Manipulating stack dimensions: slice keeper/remover, split & Merge channels
-- Projecting and reslicing
+- Projecting & reslicing
 - Switching bit depths, look Up tables & their associated issues
 - Adjusting brightness & histograms
 - Show info (ctrl+i), Set scale, Set Measurements, Measure
@@ -12,7 +12,7 @@
 - Mean, Median and Gaussian filters (smoothing/denoising)
 - Edge detection - eg Soebel Filter
 - Background removal
-- Image calculations 
+- Image calculations
 
 ## Content:
 
@@ -38,6 +38,7 @@ and a quick look in `Image>Stacks>Tools` will show you a load of different ways 
 
 <img src="https://user-images.githubusercontent.com/56034869/120720331-2bac0b80-c4cc-11eb-95c4-e35a9936bf83.PNG" width="700" height="750">
 
+Manipulating stacks and hyperstacks is useful for handling Z-stacks &/or Time series data. With multi-channel data, we often want to move between overlaying the 2 channels in the same image, or viewing them separately. 
 
 ## Excercise:
 
