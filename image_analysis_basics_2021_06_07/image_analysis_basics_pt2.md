@@ -4,7 +4,7 @@
 
 - Handling stack dimensions (x,y,z,t,ch): stacks & hyperstacks
 - Manipulating stack dimensions: slice keeper/remover, split & Merge channels
-- Projecting & reslicing
+- Projecting, reslicing & orthogonal views.
 - Switching bit depths, look Up tables & their associated issues
 - Adjusting brightness & histograms
 - Show info (ctrl+i), Set scale, Set Measurements, Measure
