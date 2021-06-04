@@ -14,6 +14,10 @@
 - Background removal
 - Image calculations
 
+## Link to talk
+
+Pending
+
 ## Content:
 
 So now we've got Fiji up and running, and opened some images, lets have a look at the basic controls and functions we can use.
