@@ -20,8 +20,6 @@ posted shortly before the course officially starts on June 7 2021.**
 
 ### [Part 4](image_analysis_basics_pt4.md), batch processing
 
-### [Optional part 5](image_analysis_basics_pt5.md), Python tools
-
 ### References
 
 - Pete Bankhead's **very thorough** [ImageJ
