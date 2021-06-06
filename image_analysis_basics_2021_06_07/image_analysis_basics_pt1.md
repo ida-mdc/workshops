@@ -12,10 +12,9 @@ Kyle Harrington, mdc@kyleharrington.com
 
 # Introduction
 
-[Basic
-concepts](https://datacarpentry.org/image-processing/01-introduction/index.html)
-from Data Carpentry workshop  
-[Pixels and file formats](https://datacarpentry.org/image-processing/02-image-basics/index.html)
+[Pixels and file
+formats](https://datacarpentry.org/image-processing/02-image-basics/index.html)
+from Data Carpentry workshop
 
 # Getting started with Fiji
 
