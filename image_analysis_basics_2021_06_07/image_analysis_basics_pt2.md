@@ -19,31 +19,6 @@
 Please see this link to the talk for part 2 on google slides:
 https://docs.google.com/presentation/d/14rU3gf7wWQdmvKtBroVESPGO763pAx8EfCs-5GMbx68/edit?usp=sharing
 
-## Content:
-
-So now we've got Fiji up and running, and opened some images, lets have a look at the basic controls and functions we can use.
-
-### Handling stack dimensions
-
-Often images in bioscience today are not just a simple 2-dimensional (X,Y) snapshot of intensity. Instead we often have to deal with 3, 4 or 5 dimensions in our images, that can include a depth dimension (Z), time (T) and different channels (C).
-
-<img src="img/sphx_glr_plot_camera_001.png.crdownload" width="200" height="200"> <img src="img/pmovie.gif" width="200" height="200">
-
-This can make the contents of our images hard to get our heads around, and hard to visualise on a 2D screen. Fiji has a number of approaches to help us with this.
-
-The simplest is the *hyperstack*. A *stack* is just a sequence of 2D images and Fiji displays a stack with a scrollbar allowing you to move through them. A *hyperstack* in Fiji can have 2 or 3 scrollbars, each one allowing you to move along an additional dimension beyond the first 2 (X & Y). 
-
-<img src="https://user-images.githubusercontent.com/56034869/120700952-981a1100-c4b2-11eb-957f-2d646a27137e.PNG" width="500" height="600">
-
-You can convert stacks to hyperstacks, and vice-versa, using the `Image>Hyperstacks>Stack to Hyperstack / Hyperstack to Stack` command:
-
-<img src="https://user-images.githubusercontent.com/56034869/120719502-aecc6200-c4ca-11eb-8d82-afef3c32cb9d.PNG" width="185" height="200">
-
-and a quick look in `Image>Stacks>Tools` will show you a load of different ways to manipulate your image stack:
-
-<img src="https://user-images.githubusercontent.com/56034869/120720331-2bac0b80-c4cc-11eb-95c4-e35a9936bf83.PNG" width="700" height="750">
-
-Manipulating stacks and hyperstacks is useful for handling Z-stacks &/or Time series data. With multi-channel data, we often want to move between overlaying the 2 channels in the same image, or viewing them separately. 
 
 ## Excercise:
 
@@ -71,3 +46,4 @@ Manipulating stacks and hyperstacks is useful for handling Z-stacks &/or Time se
 23. Let's try to deal with the noise first. To see more clearly what we mean, use the line tool to draw a line across the length of the fluorescence, then press *K* (or *Analyze>Plot Profile*) to visualise the intensity profile along your line. (Hint: if you select *Live* you can move the line and see how it changes)
 24. Now let's try some denoising. First duplicate your image (*Image>Duplicate* with *Duplicate stack* ticked) and then apply a Gaussian Blur. (*Process>Filters>Gaussian Blur..*). If you tick *preview* you can see how changing the sigma (the radius of the 2D gaussian) affects the result. When you're happy, click apply.
 25. Go back to the original, duplicate it and now try a median filter (*Process>Filters>Median...*). What are the 2 filters doing, What differences are there between their effects? You could also visualise the difference they have made by plotting a line profile (draw a line and then click *K*).
+26. Now you are interested in the velocity of chromosome separation during anaphase. Try using the line tool to draw a line along the direction of chromosome separation (roughly from centriole to centriole). Then use *Image>Stacks>Reslice* with a slice count of 3 and an output spacing of 0.1 to look at this line (plus 2 adjacent ones) over time. You'need to zoom in to the result with the magnifyer and perhaps turn up the brightness. Do you understand the kymograph that you have made. How could you use this to measure the chromosome separation velocity? If you used a slice count of 3, you should now actually be able to scroll through 3 kymographs. What is the difference between them? Would using the other 2 help? What about projecting the 3 together?
