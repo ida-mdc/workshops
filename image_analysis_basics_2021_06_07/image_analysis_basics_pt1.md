@@ -5,8 +5,10 @@ Kyle Harrington, mdc@kyleharrington.com
 
 ## Fiji
 
-Download Fiji from
+1. Download Fiji from
 [https://imagej.net/Fiji/Downloads](https://imagej.net/Fiji/Downloads)
+2. Unzip the file
+3. Launch Fiji
 
 # Introduction
 
