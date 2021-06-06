@@ -154,3 +154,28 @@ between `0` and `15`.
 
 We will get into this in more detail in the following section [part 2](https://ida-mdc.github.io/workshops/image_analysis_basics_2021_06_07/image_analysis_basics_pt2.html).
 
+## Image Analysis Ethics
+
+Image analysis ethics is becoming an increasingly critical topic. It
+has been popularized by [Elisabeth
+Bik](https://twitter.com/MicrobiomDigest) who has become a detective
+for fradulent image manipulation in scientific publications.
+
+Image analysis/processing ethics apply to both the creation of figures
+for your paper **and** during the analysis process itself. The key to
+not getting into trouble is being honest and up-front about anything
+you do. The list of things to do and not do can become quite specific,
+so let's just list some highlights:
+
+- it isn't ok to clone sections of gels or Western blots (e.g. [this
+  from Elisabeth
+  Bik](https://twitter.com/MicrobiomDigest/status/1401415298616492034))
+- you can adjust brightness/contrast/gamma as long as you clearly
+  state that you did that
+- you cannot delete large amounts of content from the image  
+- but you can crop and remove artifacts, as long as you clearly state
+  that you did that
+- when comparing images you cannot process one image differently to
+  mislead the reader into seeing more pronounced differences (e.g. "To
+  Adjust Or Not To Adjust" [here](https://www.niehs.nih.gov/research/atniehs/labs/lep/image-analysis/image_ethics_to_adjust_or_not_to_adjust_508.pdf))
+
