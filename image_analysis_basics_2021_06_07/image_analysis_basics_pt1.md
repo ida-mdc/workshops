@@ -3,10 +3,6 @@ Kyle Harrington, mdc@kyleharrington.com
 
 # Getting setup
 
-## HIPS
-
-TBD
-
 ## Fiji
 
 Download Fiji from
@@ -44,6 +40,30 @@ Many of the example commands in this workshop will be listed as:
 3. Finally there are some basic icons shown on the toolbar
    itself. These may be familiar from other image editing tools you've used.
 
+## ImageJ, and Fiji
+
+ImageJ is a software tool with a [long
+history](https://en.wikipedia.org/wiki/ImageJ). It was originally
+developed at the National Institutes of Health in the USA by just 1
+developer, Wayne Rasband. 
+
+ImageJ became popular over the years because it **just worked** on all
+computers where Java works, and could be extended with plugins. However,
+finding, and discovering plugins was difficult and it was hard to
+maintain an ImageJ configuration.
+
+Fiji is a collection of software built around ImageJ, but provides so
+many additional features that it has become its own tool. Fiji
+provides:
+
+- update sites for discovering and downloading new plugins
+- better software design that makes it possible to open **very large**
+  images
+- provided the first 3D visualization plugin
+- integration with ImageJ2, a more robust implementation of some key
+  software components
+- and more  
+
 ## Image Representation
 
 Pixels of an image may be represented in different ways. This relates
@@ -76,6 +96,27 @@ pixel value is shown on the Fiji status bar:
 
 ![Showing that Fiji shows pixel location and value when mousing over
 image data](img/mouse_over_pixel_location_value.png)
+
+Now let's measure some pixel values along a line:
+
+First click on the line selection tool:
+
+![Line selection tool](img/fiji_line_selection.png)
+
+Now draw a line in the image, then press `Ctrl + k`.
+
+You can also run this as `Fiji search: plot profile`
+
+![Plot profile in Hela Cells](img/plot_profile_hela.png)
+
+This shows you a plot of the pixel values along your line.
+
+Now click the `Live` button at the bottom of the plot profile window.
+
+![Plot profile live](img/plot_profile_live.png)
+
+Now if you go back to the image and move your line selection you can
+interactively measure the pixel values in your image.
 
 `Fiji search: brightnesscontrast`
 
@@ -112,3 +153,4 @@ being able to represent the values `0`, `1`, `2`, `3`, `4`, `5`, `6`,
 between `0` and `15`. 
 
 We will get into this in more detail in the following section [part 2](https://ida-mdc.github.io/workshops/image_analysis_basics_2021_06_07/image_analysis_basics_pt2.html).
+
