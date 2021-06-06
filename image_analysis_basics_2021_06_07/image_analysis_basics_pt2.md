@@ -16,7 +16,8 @@
 
 ## Link to talk
 
-Pending
+Please see this link to the talk for part 2 on google slides:
+https://docs.google.com/presentation/d/14rU3gf7wWQdmvKtBroVESPGO763pAx8EfCs-5GMbx68/edit?usp=sharing
 
 ## Content:
 
