@@ -1,21 +1,50 @@
-# Image analysis basics (pt2)
+# Part 2: Basic Functions in Fiji
 
-### Talk contents:
+## Overview:
 
-- What is Fiji/ImageJ?
-- Opening images, stacks, series' & metadata'
-- Magnifier, hand, selection tools (points, angles, lines & shapes), annotation & drawing tools.
-- Handling stack dimensions (x,y,z,t,ch): Stacks & Hyperstacks
-- Manipulating stack dimensions: Slice keeper/remover, Z-Projection, Split & Merge channels
-- Positions & their pixel values
+- Handling stack dimensions (x,y,z,t,ch): stacks & hyperstacks
+- Manipulating stack dimensions: slice keeper/remover, split & Merge channels
+- Projecting, reslicing & orthogonal views.
 - Switching bit depths, look Up tables & their associated issues
 - Adjusting brightness & histograms
 - Show info (ctrl+i), Set scale, Set Measurements, Measure
 - What is a filter?
 - Mean, Median and Gaussian filters (smoothing/denoising)
 - Edge detection - eg Soebel Filter
+- Background removal
+- Image calculations
 
-### Excercise:
+## Link to talk
+
+Pending
+
+## Content:
+
+So now we've got Fiji up and running, and opened some images, lets have a look at the basic controls and functions we can use.
+
+### Handling stack dimensions
+
+Often images in bioscience today are not just a simple 2-dimensional (X,Y) snapshot of intensity. Instead we often have to deal with 3, 4 or 5 dimensions in our images, that can include a depth dimension (Z), time (T) and different channels (C).
+
+<img src="img/sphx_glr_plot_camera_001.png.crdownload" width="200" height="200"> <img src="img/pmovie.gif" width="200" height="200">
+
+This can make the contents of our images hard to get our heads around, and hard to visualise on a 2D screen. Fiji has a number of approaches to help us with this.
+
+The simplest is the *hyperstack*. A *stack* is just a sequence of 2D images and Fiji displays a stack with a scrollbar allowing you to move through them. A *hyperstack* in Fiji can have 2 or 3 scrollbars, each one allowing you to move along an additional dimension beyond the first 2 (X & Y). 
+
+<img src="https://user-images.githubusercontent.com/56034869/120700952-981a1100-c4b2-11eb-957f-2d646a27137e.PNG" width="500" height="600">
+
+You can convert stacks to hyperstacks, and vice-versa, using the `Image>Hyperstacks>Stack to Hyperstack / Hyperstack to Stack` command:
+
+<img src="https://user-images.githubusercontent.com/56034869/120719502-aecc6200-c4ca-11eb-8d82-afef3c32cb9d.PNG" width="185" height="200">
+
+and a quick look in `Image>Stacks>Tools` will show you a load of different ways to manipulate your image stack:
+
+<img src="https://user-images.githubusercontent.com/56034869/120720331-2bac0b80-c4cc-11eb-95c4-e35a9936bf83.PNG" width="700" height="750">
+
+Manipulating stacks and hyperstacks is useful for handling Z-stacks &/or Time series data. With multi-channel data, we often want to move between overlaying the 2 channels in the same image, or viewing them separately. 
+
+## Excercise:
 
 1. Open sample Mitosis.tif (*File>Open Samples>Mitosis*).
 3. Let's get a feel for the image: Use the scrollbars to move through the different Z-depths and Timepoints. Use the magnifier & hand tools to zoom in and move around the image.
