@@ -9,9 +9,6 @@ Python-based image analysis.
 
 ## Syllabus
 
-**The course material is being actively developed and will be fully
-posted shortly before the course officially starts on June 7 2021.**
-
 ### [Part 1](image_analysis_basics_pt1.md), overview of images
 
 ### [Part 2](image_analysis_basics_pt2.md), hands-on image basics
