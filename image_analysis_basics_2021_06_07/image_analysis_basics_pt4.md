@@ -42,13 +42,14 @@ In this part, we want to show you some of approaches to turn a series of image j
 11. Open the *Process Folder (IJ1 Macro)* in *Templates>ImageJ 1.x>Batch>Process Folder (IJ1 Macro)*
 12. This contains a bit more content to understand:
 
-  -The first lines in green are *Comments*. They are not part of the code, instead they are bit's of additional info put in to help you out. Comments in the imageJ macro start with either a `/*` (multi-line) or a `//` (single line).
+  - The first lines in green are *Comments*. They are not part of the code, instead they are bit's of additional info put in to help you out. Comments in the imageJ macro start with either a `/*` (multi-line) or a `//` (single line).
   
-  -The lines beginning `#@` bring up a GUI window where you can manually select the `input`, `output` and `suffix` variables.
+  - The lines beginning `#@` bring up a GUI window where you can manually select the `input`, `output` and `suffix` variables.
   
-  -Line 12 (`processFolder(input);`) calls the function `processFolder()` and runs it on the variable `input`. This function is then defined below (lines 15-24)
+  - Line 12 (`processFolder(input);`) calls the function `processFolder()` and runs it on the variable `input`. This function is then defined below (lines 15-24)
   
-  -The function `processFolder` looks through all the folders and files in the input folder. If it finds a folder, it will apply itself to that folder too (it will therefore work on all subfolders as well). If it finds a file that ends with the chosen suffix (chosen in the GUI), it will run the function `processFile` on it. This function is defined below (currently lines 26-31). It is this function that you need to edit and add the code from the pipeline that you have already made.
+  - The function `processFolder` looks through all the folders and files in the input folder. If it finds a folder, it will apply itself to that folder too (it will therefore work on all subfolders as well). If it finds a file that ends with the chosen suffix (chosen in the GUI), it will run the function `processFile` on it. This function is defined below (currently lines 26-31). It is this function that you need to edit and add the code from the pipeline that you have already made.
+
 13. Make yourself a folder containing images to analyse, put in your code and click run... Does it work? Does it do what you wanted?
 14. Probably not... This script is not yet opening anything. The commands we used before worked on an image that had been already opened. Now we need to add the command `Open(input+"/"+file)` to the first line of the function.
 15. Notice how we are now referring to the file by its path, using the variables `input` and `file` (and later we also need `output`). Make sure that in the rest of the code (eg in the saveAs line), you are now referring to images and locations using these variables.
