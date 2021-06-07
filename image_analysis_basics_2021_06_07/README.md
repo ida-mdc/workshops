@@ -25,4 +25,4 @@ posted shortly before the course officially starts on June 7 2021.**
 - Pete Bankhead's **very thorough** [ImageJ
   Intro](https://petebankhead.gitbooks.io/imagej-intro)  
 - [https://datacarpentry.org/image-processing/](https://datacarpentry.org/image-processing/)
-- Book: [The Digitial Cell](https://www.cshlpress.com/default.tpl?cart=16221012231476127106&fromlink=T&linkaction=full&linksortby=oop_title&--eqSKUdatarq=1282)
+- Book: [The Digital Cell](https://www.cshlpress.com/default.tpl?cart=16221012231476127106&fromlink=T&linkaction=full&linksortby=oop_title&--eqSKUdatarq=1282)
